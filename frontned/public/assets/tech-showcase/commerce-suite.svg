@@ -1,0 +1,28 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-commerce" x1="220" y1="40" x2="1080" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80D846"/>
+      <stop offset="1" stop-color="#3AA93C"/>
+    </linearGradient>
+    <linearGradient id="card-commerce" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F9FFF3"/>
+      <stop offset="1" stop-color="#E0FAD2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#141A2A"/>
+  <polygon points="260,0 1280,0 1010,720 0,720" fill="url(#bg-commerce)"/>
+  <rect x="160" y="142" width="540" height="436" rx="30" fill="white" fill-opacity="0.15" stroke="white" stroke-opacity="0.24" stroke-width="3"/>
+  <rect x="210" y="206" width="440" height="308" rx="26" fill="#F4FFE8" fill-opacity="0.96"/>
+  <rect x="250" y="248" width="360" height="66" rx="14" fill="#C4EAA4"/>
+  <rect x="250" y="334" width="172" height="140" rx="20" fill="#A9DE80"/>
+  <rect x="438" y="334" width="172" height="140" rx="20" fill="#91D268"/>
+  <circle cx="336" cy="404" r="36" fill="#F4FFE8"/>
+  <path d="M316 404H356M336 384V424" stroke="#58A53D" stroke-width="7" stroke-linecap="round"/>
+  <path d="M510 398C510 374 528 356 552 356C576 356 594 374 594 398C594 422 576 440 552 440C528 440 510 422 510 398Z" fill="#F4FFE8"/>
+  <path d="M536 398H568M552 382V414" stroke="#58A53D" stroke-width="7" stroke-linecap="round"/>
+  <rect x="742" y="194" width="366" height="344" rx="30" fill="url(#card-commerce)" fill-opacity="0.92"/>
+  <path d="M792 256H1018M792 298H1060M792 340H1000" stroke="#3D9B3C" stroke-width="11" stroke-linecap="round"/>
+  <rect x="792" y="390" width="274" height="94" rx="22" fill="#6AC047"/>
+  <path d="M842 438H1014" stroke="#EFFFDF" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="1048" cy="438" r="20" fill="#EFFFDF"/>
+</svg>
