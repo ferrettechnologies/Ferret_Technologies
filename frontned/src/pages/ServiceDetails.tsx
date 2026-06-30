@@ -137,7 +137,7 @@ const serviceData = {
     "desktop-development": {
         title: "Desktop Development",
         icon: Monitor,
-        color: "#64d65a",
+        color: "#A13BFF",
         description: "Robust and high-performance desktop applications for Windows, macOS, and Linux. We build powerful tools that take full advantage of desktop hardware.",
         features: [
             "Cross-platform Desktop Apps",
@@ -196,7 +196,7 @@ const ServiceDetails = () => {
     const sourcePath = (location.state as { from?: string } | null)?.from;
     const backTarget = sourcePath === "/" || sourcePath === "/what-we-do" || sourcePath === "/services"
         ? sourcePath
-        : "/what-we-do";
+        : "/services";
 
     const handleBack = () => {
         if (backTarget === "/") {
@@ -204,7 +204,7 @@ const ServiceDetails = () => {
             return;
         }
 
-        navigate(backTarget);
+        navigate(backTarget === "/what-we-do" ? "/services" : backTarget);
     };
 
     if (!service) {

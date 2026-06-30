@@ -818,7 +818,7 @@ const WhatWeDo = () => {
                                     <button
                                         key={item.id}
                                         type="button"
-                                        onClick={() => navigate("/what-we-do/cutting-edge-details", { state: { from: "/what-we-do" } })}
+                                        onClick={() => navigate("/services/cutting-edge-details", { state: { from: "/services" } })}
                                         className="relative flex h-[340px] w-full items-center justify-center border-b border-black/20 px-6 text-white cursor-pointer text-center"
                                         style={{ background: mobileTechPanelBackgroundById[item.id] }}
                                     >

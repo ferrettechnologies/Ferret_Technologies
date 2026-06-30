@@ -1,3 +1,8 @@
+/*
+ * Unused page.
+ * The live Services URL now renders WhatWeDo through src/App.tsx.
+ * Kept commented because Windows denied deleting this file.
+ *
 import { motion } from "framer-motion";
 import type { LucideIcon } from "lucide-react";
 import { Cloud, Database, Layers, Rocket, ShieldCheck, Users } from "lucide-react";
@@ -79,7 +84,7 @@ const ServicesPage = () => {
         highlight="With Your Product"
         description="From discovery to delivery, we pair senior talent with disciplined systems so every release ships fast and stays stable."
         primaryCta={{ label: "Start a Project", to: "/contact" }}
-        secondaryCta={{ label: "See Our Work", to: "/work" }}
+        secondaryCta={{ label: "See Our Work", to: "/portfolio" }}
       />
 
       <Services />
@@ -210,3 +215,4 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+*/

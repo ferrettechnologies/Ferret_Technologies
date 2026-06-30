@@ -72,7 +72,7 @@ const cuttingEdgeItems = [
 
 const CuttingEdgeDetailsMobile = () => {
   if (typeof window !== "undefined" && window.innerWidth >= 768) {
-    return <Navigate to="/what-we-do" replace />;
+    return <Navigate to="/services" replace />;
   }
 
   return (
@@ -80,7 +80,7 @@ const CuttingEdgeDetailsMobile = () => {
       <Navbar />
 
       <main className="mx-auto max-w-3xl px-4 pb-12 pt-24">
-        <Link to="/what-we-do" className="mb-6 inline-flex items-center gap-2 text-white/70 hover:text-[#ff0044] transition-colors">
+        <Link to="/services" className="mb-6 inline-flex items-center gap-2 text-white/70 hover:text-[#ff0044] transition-colors">
           <ArrowLeft size={18} />
           <span>Back</span>
         </Link>

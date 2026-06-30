@@ -218,7 +218,7 @@ const WorkPage = () => {
                               {whatWeDoCards[cardIndex].description}
                             </p>
                             <Link
-                              to="/what-we-do"
+                              to="/services"
                               className="mt-10 inline-flex items-center gap-2 rounded-full bg-[#ff0044] px-10 py-4 text-sm font-black uppercase tracking-widest text-white transition-all hover:bg-[#e6003d] hover:scale-105 active:scale-95 shadow-xl shadow-[#ff0044]/30"
                             >
                               Read more <ChevronRight className="h-4 w-4" />

@@ -4,8 +4,8 @@ import { Menu, X } from "lucide-react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
 const navLinks = [
-  { label: "SERVICES", to: "/what-we-do" },
-  { label: "PORTFOLIO", to: "/work" },
+  { label: "SERVICES", to: "/services" },
+  { label: "PORTFOLIO", to: "/portfolio" },
   { label: "CAREERS", to: "/careers" },
   { label: "CONTACTS", to: "/contact" },
 ];
@@ -27,7 +27,7 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [isMobileViewport, setIsMobileViewport] = useState(() => window.innerWidth <= 1024);
   const location = useLocation();
-  const isTransparentRoute = ["/", "/what-we-do"].includes(location.pathname);
+  const isTransparentRoute = ["/", "/services"].includes(location.pathname);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
